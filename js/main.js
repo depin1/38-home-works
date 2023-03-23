@@ -605,12 +605,12 @@ const row = document.querySelector('.row');
 
 const newparams = users.map((el) => {
     return `   <div class="cards001 col-lg-4 col-md-6 col-sm-12">
+    <div class=" cb2 card-body">
     <img src=${el.avatar_url} class="image1" alt="...">
-    <div class="card-body">
         <h1>Id:${el.id}</h1>
+        <a href="mailto:" class="ahref2">${el.gists_url}</a>
+        <a class="ahref"> ${el.login}</a>
     </div>
-    <a href="mailto:" class="ahref2">${el.gists_url}</a>
-    <a class="ahref"> ${el.login}</a>
 </div>`
 })
 row.innerHTML = newparams.join('')
