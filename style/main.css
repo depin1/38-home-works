@@ -1,0 +1,23 @@
+.image1 {
+    width: 70%;
+    text-align: center;
+    border-radius: 50%;
+    display: flex;
+}
+
+.cards001 {
+    text-align: start;
+    border: 3px solid black;
+    padding: 20px;
+}
+
+.ahref {
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.row {
+    padding: 10px;
+}
